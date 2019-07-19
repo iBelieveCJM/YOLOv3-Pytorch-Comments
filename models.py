@@ -6,10 +6,9 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import numpy as np
 
-from utils.parse_config import *
+from utils.parse_config import parse_model_config
 from utils.utils import build_targets, to_cpu
 
-DEBUG = False
 
 def create_modules(module_defs):
     """

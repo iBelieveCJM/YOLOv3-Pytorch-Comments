@@ -89,7 +89,8 @@ def compute_ap(recall, precision):
 def get_batch_statistics(outputs, targets, iou_threshold):
     """ Compute true positives, predicted scores and predicted labels per sample.
     Args:
-        targets.shape(num_bboxes, 6_vals), 6_vals=(idx, labels, x1,y1,x2,y2)"""
+        targets.shape(num_bboxes, 6_vals), 6_vals=(idx, labels, x1,y1,x2,y2)
+    """
     batch_metrics = []
     for sample_i in range(len(outputs)):
 
