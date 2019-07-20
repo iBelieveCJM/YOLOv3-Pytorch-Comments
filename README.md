@@ -27,7 +27,7 @@ $ python3 detect.py --image_folder data/samples
 
 ### To learn how to build a YOLOv3
 
-I slightly simplify the original [repo](https://github.com/eriklindernoren/PyTorch-YOLOv3) and add the detailed comments on the main components of YOLO system. I mainly focus on four part of the YOLO:
+I slightly simplify the original [repo](https://github.com/eriklindernoren/PyTorch-YOLOv3) and add the detailed comments on the main components of YOLO system. I mainly focus on the four parts of the YOLO:
 
 - How to prepare the inputs? ==> utils/datasets.py
 - How to bulid the targets for YOLO? ==> utils/utils.bulid_targets (function)
